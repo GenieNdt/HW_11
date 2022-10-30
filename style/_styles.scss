@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "GraphikLCG";
+    src: url("../assets/fonts/GraphikLCG-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "GraphikLCG";
+    src: url("../assets/fonts/GraphikLCG-Semibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+$background-white: #ffffff;
+$background-orange: #FF9C7D;
+$background-beige: #FFF8E4;
+$background-blue: #C9E8F2;
+$background-brown: #DABC98;
+
+$border-color: #000000;
+
+$background-button-orange: #FF6336;
+$background-button-black: #000000;
+$background-button-white: #ffffff;
+
+$text-color-black: #000000;
+$text-color-white: #ffffff;
+
+$h3-size-laptop: 65px;
+$h3-size-tablet: 40px;
+$h3-size-phone: 35px;
+
+$h5-size-laptop: 50px;
+$h5-size-tablet: 35px;
+$h5-size-phone: 30px;
+
+.underline {
+    text-decoration: underline;
+}

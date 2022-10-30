@@ -1,0 +1,259 @@
+@use "styles" as *;
+
+@media all and (max-width: 1024px) {
+
+    .header__inner {
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 20px 0;
+    }
+
+    .info__section {
+        padding: 50px 0;
+
+        &__inner {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 20px;
+        }
+
+        &__block {
+            gap: 30px;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__h3 {
+            font-size: $h3-size-tablet;
+        }
+
+        &__text {
+            font-size: 17px;
+            line-height: 120%;
+            margin: 0;
+        }
+
+        &__subtitle {
+            font-size: 13px;
+        }
+
+        &.localization__img {
+            max-width: 300px;
+            margin: 0;
+        }
+    }
+
+    .companies__section {
+        padding: 50px 0;
+
+        &__h5 {
+            font-size: $h5-size-tablet;
+            line-height: 120%;
+            max-width: 550px;
+            margin-bottom: 35px;
+        }
+
+        &__block__logos {
+            row-gap: 20px;
+            justify-content: space-around;
+        }
+
+        &__logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+        }
+    }
+
+    .main__section {
+        padding: 50px 0;
+
+        &__inner {
+            gap: 80px;
+        }
+
+        &__block__text {
+            gap: 20px;
+            max-width: 370px;
+        }
+
+        &__block {
+            gap: 10px;
+        }
+
+        &__h5 {
+            font-size: $h5-size-tablet;
+        }
+
+        &__text {
+            font-size: 17px;
+            line-height: 120%;
+        }
+    }
+
+    .cards__section {
+        padding: 50px 0;
+
+        &__h5 {
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+
+        &__inner {
+            align-items: start;
+            row-gap: 55px;
+        }
+
+        &__block {
+            gap: 15px;
+        }
+
+        &__img {
+            max-width: 120px;
+        }
+
+        &__h6 {
+            font-size: 20px;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+    }
+
+    .productivity__section {
+        padding: 50px 0;
+
+        &__h6 {
+            font-size: 20px;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+    }
+
+    .revolut__section {
+        padding: 50px 0;
+
+        &__text {
+            font-size: 20px;
+            max-width: 720px;
+            margin-bottom: 20px;
+        }
+
+        &__logo {
+            max-width: 100px;
+        }
+    }
+
+    .software__section {
+        padding: 50px 0;
+
+        &__block {
+            gap: 25px;
+        }
+
+        &__img {
+            min-width: 100px;
+        }
+
+        &__h6 {
+            font-size: 30px;
+            max-width: 400px;
+        }
+
+        &__block__rating {
+            gap: 0;
+            padding-left: 20px;
+        }
+
+        &__rating {
+            min-width: 150px;
+        }
+
+        &__rating__img {
+            max-width: 150px;
+            align-items: flex-start;
+        }
+
+        &__stars {
+            max-width: 90px;
+        }
+
+        &__text {
+            font-size: 13px;
+            max-width: 130px;
+        }
+    }
+
+    .integration__section {
+        padding: 50px 0;
+
+        &__h3 {
+            font-size: $h3-size-tablet;
+            max-width: 600px;
+        }
+
+        &__h3__subtitle {
+            font-size: 20px;
+            max-width: 540px;
+        }
+
+        &___img {
+            max-width: 600px;
+            margin-bottom: 35px;
+        }
+    }
+
+    .try__free__section {
+        padding: 50px 0;
+
+        &__h3 {
+            margin-bottom: 15px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .footer {
+        padding-top: 50px;
+
+        &__top {
+            flex-direction: column;
+            margin-bottom: 30px;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__block__studies {
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        &__h6 {
+            font-size: 25px;
+        }
+
+        &__blocks {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        &__links {
+            width: 100%;
+        }
+
+        &__ground {
+            padding: 40px 0;
+        }
+    }
+}

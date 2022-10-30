@@ -1,0 +1,132 @@
+@use "styles" as *;
+
+.link {
+    text-decoration: none;
+    color: $text-color-black;
+    font-size: 20px;
+
+    &__header {
+        font-size: 15px;
+    }
+
+    &__startnow {
+        border: 0;
+        background-color: $background-button-white;
+        font-weight: 600;
+        line-height: 150%;
+        padding: 0;
+
+        .startnow__footer {
+            text-align: left;
+        }
+    }
+
+    &__productivity__section {
+        line-height: 150%;
+        text-decoration-line: underline;
+    }
+
+    &__product {
+        font-size: 15px;
+        line-height: 100%;
+        color: $text-color-black;
+        text-decoration: none;
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .link__header {
+        width: 40%;
+        min-height: 25px;
+        text-align: center;
+    }
+
+    .link__startnow {
+        font-size: 15px;
+    }
+
+    .link__productivity__section {
+        font-size: 15px;
+    }
+
+    .link__product {
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .link__startnow {
+        font-size: 17px;
+    }
+
+    .link__productivity__section {
+        font-size: 17px;
+    }
+}
+
+
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    color: $text-color-black;
+    cursor: pointer;
+
+    &__login {
+        padding: 14px 37px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: transparent;
+        color: $text-color-black;
+    }
+
+    &__try__free {
+        padding: 14px 24px;
+        background-color: $background-button-orange;
+        color: $text-color-white;
+        border: 0;
+
+        &.see__integrations {
+            padding: 22px 21px;
+        }
+    }
+
+    &__try__free__info {
+        padding: 22px 42px;
+    }
+
+    &__book {
+        padding: 21px 29px;
+    }
+
+    &__black {
+        background-color: $background-button-black;
+        padding: 22px 42px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .button__login {
+        padding: 10px 25px;
+    }
+
+    .button__try__free {
+        padding: 9px 14px;
+    }
+
+    .button.button__login.button__book {
+        padding: 16px 22px;
+    }
+
+    .button.button__try__free.button__try__free__info {
+        padding: 17px 32px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .button {
+        font-size: 12px;
+    }
+}
